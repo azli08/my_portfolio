@@ -28,12 +28,12 @@ Her proje, `index.html` içindeki bir `<article class="project-card">` bloğudur
 
 - `styles.css` renkleri, yazı tiplerini, boşlukları, kartları ve mobil yerleşimi kontrol eder.
 - `script.js` dil düğmesini, seçilen dili hatırlamayı ve kaydırma animasyonlarını yönetir.
-- CV bağlantısı `AsliAlparslanCV_TR.pdf` dosyasını açar. CV'yi yenilerseniz dosya adını aynı tutun veya bağlantıyı HTML'de güncelleyin.
+- İletişim bölümündeki e-posta adresini değiştirmek için `mailto:` bağlantısını ve görünen adresi birlikte güncelleyin.
 
 ## Kendi GitHub hesabınızdan yayınlama
 
 1. Kendi GitHub hesabınızda yeni bir depo oluşturun. GitHub Free ile GitHub Pages kullanmak için herkese açık depo en kolay seçenektir.
-2. Bu klasörü indirin ve ZIP dosyasından çıkarın. Depoda **Add file → Upload files** seçeneğini açıp `index.html`, `styles.css`, `script.js`, `AsliAlparslanCV_TR.pdf` ve eklediğiniz görselleri yükleyin. `index.html` depo kök klasöründe olmalı.
+2. Bu klasörü indirin ve ZIP dosyasından çıkarın. Depoda **Add file → Upload files** seçeneğini açıp `index.html`, `styles.css`, `script.js` ve eklediğiniz görselleri yükleyin. `index.html` depo kök klasöründe olmalı.
 3. Yüklemeyi kaydedin.
 4. Depoda **Settings → Pages** bölümünü açın. **Deploy from a branch** seçeneğini, `main` dalını ve `/(root)` klasörünü seçip kaydedin.
 5. GitHub Pages yayınlayınca site adresi Pages ayarlarında görünür.
@@ -54,6 +54,5 @@ git push -u origin main
 - `index.html` — sayfa içeriği
 - `styles.css` — renkler, sayfa düzeni ve mobil görünüm
 - `script.js` — dil seçimi, kaydırma animasyonları ve güncel yıl
-- `AsliAlparslanCV_TR.pdf` — portfolyodan açılan Türkçe özgeçmiş
 
 Kaydırma efektlerinde bölümler aşağıdan veya yandan görünür, proje çizimleri farklı hızlarda hareket eder ve üstteki halkalar sayfayı kaydırdıkça döner. Sistem ayarlarında hareket azaltma seçiliyse animasyonlar kapatılır.
